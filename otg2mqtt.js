@@ -3,7 +3,7 @@
 * Author: https://github.com/githubcdr/
 * Project: http://otgw.tclcode.com/
 * Thanks to hekkers.net
-* /
+*/
 
 var com = require( 'serialport' ),
 	mqtt = require( 'mqtt' ),
