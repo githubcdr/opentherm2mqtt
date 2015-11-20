@@ -1,0 +1,13 @@
+[Service]
+WorkingDirectory=/home/nodejs/skynet
+ExecStart=/usr/local/bin/node --max-old-space-size=128 otg.js
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=node-otg
+User=nodejs
+Group=nodejs
+Environment='NODE_PATH=/usr/local/lib/node_modules'
+
+[Install]
+WantedBy=multi-user.target
