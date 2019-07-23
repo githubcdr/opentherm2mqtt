@@ -1,0 +1,24 @@
+{
+  "name": "otg2mqtt",
+  "version": "1.0.0",
+  "description": "MQTT bridge for the OpenTherm Gateway",
+  "main": "otg2mqtt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubcdr/opentherm2mqtt.git"
+  },
+  "keywords": [
+    "mqtt",
+    "opentherm",
+    "iot"
+  ],
+  "author": "@githubcdr",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/githubcdr/opentherm2mqtt/issues"
+  },
+  "homepage": "https://github.com/githubcdr/opentherm2mqtt#readme"
+}
