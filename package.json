@@ -4,7 +4,7 @@
   "description": "MQTT bridge for the OpenTherm Gateway",
   "main": "otg2mqtt.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Info: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
